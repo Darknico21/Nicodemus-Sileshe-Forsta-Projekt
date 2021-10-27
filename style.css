@@ -1,0 +1,44 @@
+.rubrik {
+    position: fixed;
+    background: #58AF6F;
+    padding: 1%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1vw;
+    background-color: #58AF6F;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 30vw;
+}
+
+body {
+    background-color: #f1cd67;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1vw;
+    background-color: chocolate;
+    justify-content: space-evenly;
+}
+
+.img2 {
+    width: 45vw;
+}
