@@ -1,16 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 .rubrik {
-    position: fixed;
-    background: #58AF6F;
+    background: #173f22;
     padding: 1%;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2.5vw;
     text-decoration: underline;
+    color: #1db93f;
+
 }
 
 .gallery {
@@ -18,7 +22,7 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 1vw;
-    background-color: #58AF6F;
+    background-color: #173f22;
     justify-content: space-evenly;
 }
 
@@ -41,4 +45,14 @@ body {
 
 .img2 {
     width: 45vw;
+}
+
+.knappar {
+    display: flex;
+    flex-direction: row;
+    size: 2.5vw;
+}
+body{
+    margin: 50px;
+    background: #000000;
 }
