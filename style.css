@@ -30,24 +30,27 @@ h1 {
 }
 
 .img {
-  width: 20vw;
+  width: 18vw;
+  border: 1rem solid;
+  border-color: black;
 }
 
 body {
   background-color: #f1cd67;
 }
 
-.gallery2 {
+.om-oss {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
   padding: 1vw;
-  background-color: chocolate;
+  background-color: rgb(144, 231, 29);
   justify-content: space-evenly;
+  font-size: 3vw;
 }
 
 .img2 {
-  width: 45vw;
+  width: 7vw;
 }
 
 button {
@@ -103,4 +106,126 @@ input:focus {
 input::placeholder {
   color: #000;
   font-style:italic;
+}
+
+.chips {
+    display: flex;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.godis {
+    display: flex;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.coca-cola {
+    display: flex;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.redbull {
+    display: flex;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.oss {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.källor {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.följ {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1vw;
+    justify-content: space-evenly;
+    gap: 1em;
+    
+}
+
+.shoppic {
+    width: 13vw;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1vw;
+    background-color: #216133;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin: 1.2%;
+}
+
+.Le-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-chips{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background-color: #216133;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin: 1.2%;
+}
+
+.gallery-cola{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background-color: #216133;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin: 1.2%;
+}
+
+.gallery-redbull{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background-color: #216133;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin: 1.2%;
+}
+
+.gallery-candy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    background-color: #216133;
+    justify-content: space-evenly;
+    gap: 1em;
+    margin: 1.2%;
 }
